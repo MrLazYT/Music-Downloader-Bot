@@ -37,7 +37,7 @@ async def get_song_name(message: types.Message, state: FSMContext):
         downloaded =  md.download_song(answer)
                 
         if downloaded:
-            path = "J:\Projects\Python\Dmitros_music_downloader_bot\Downloads\Musics"
+            path = "app\Downloads\Musics"
             find = False
 
             for file_name in os.listdir(path):
