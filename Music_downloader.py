@@ -161,7 +161,7 @@ def download(video_name, url, song_link):
         seconds = 0
         download_wait = True
         
-        path = os.path.abspath("Downloads\Musics")
+        path = os.path.abspath("Downloads/Musics")
         
         rename_song = ""
         
@@ -193,7 +193,7 @@ def download_song(song_name):
         print(site)
         
         downloaded = False
-        path = os.path.abspath("Downloads\Musics")
+        path = os.path.abspath("Downloads/Musics")
         
         for file_name in os.listdir(path):
             if song_name.lower() in file_name.lower():

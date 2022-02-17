@@ -37,7 +37,7 @@ async def get_song_name(message: types.Message, state: FSMContext):
         downloaded =  md.download_song(answer)
                 
         if downloaded:
-            path = os.path.abspath("Downloads\Musics")
+            path = os.path.abspath("Downloads/Musics")
             find = False
 
             for file_name in os.listdir(path):
