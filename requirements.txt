@@ -1,0 +1,5 @@
+aiogram<3.0
+asyncio
+selenium
+bs4
+requests
