@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import sqlite3
 
 def connect(db_name):
