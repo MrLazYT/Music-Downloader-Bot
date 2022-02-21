@@ -65,6 +65,8 @@ def get_searched_html(url, video_name):
             find = False
             
             driver.close()"""
+    
+    print(html)
         
     return html
 
